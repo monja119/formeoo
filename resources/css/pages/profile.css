@@ -1,0 +1,42 @@
+@import '../base.css';
+
+h1{
+    color: red;
+}
+
+.profile-header{
+    background: #fff;
+}
+
+.pdp{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.entity-name{
+    color: var(--main-color);
+}
+
+input[value="Suivre"]{
+    transform: scale(0.8);
+    margin-right: 2%;
+}
+
+.description{
+    font-size: 0.8em;
+}
+
+.navbar-profile-item{
+    margin-top: 1px solid var(--main-color);
+    cursor: pointer;
+    padding: 1.6%;
+    font-size: small;
+}
+.navbar-profile-item:hover{
+    transform: scale(1.1);
+    font-weight: bold ;
+}
